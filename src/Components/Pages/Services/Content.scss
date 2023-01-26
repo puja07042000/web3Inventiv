@@ -1,0 +1,93 @@
+@import '../../../App.scss';
+
+.services-section {
+    .section-title {
+      text-align: left;
+    }
+    .services-category-box {
+      a {
+        color: $primary-color-red;
+        text-decoration: none;
+        font-size: 15px;
+        padding: 10px 30px;
+        border-radius: 3px;
+        text-align: center;
+        font-weight: 700;
+        background-color: #f4f5ff;
+        display: inline-block;
+        min-width: 120px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        transition: all 400ms ease-out;
+        will-change: transform;
+        &:hover {
+          color: #fff;
+          background-color: $primary-color-red;
+        }
+      }
+    }
+    .services-category-info {
+      margin-top: 30px;
+      margin-bottom: 50px;
+      h6 {
+        font-size: 18px;
+        color: #5f5f5f;
+      }
+    }
+  
+    .single-services-box-2 {
+      position: relative;
+      z-index: 1;
+      display: block;
+      padding: 35px 30px;
+      text-align: left;
+      border-radius: 5px;
+      background-color: #ffffff;
+      margin-bottom: 30px;
+      border: 2px solid transparent;
+      -webkit-box-shadow: 5px 7px 15px 2px rgb(82 90 101 / 12%);
+      -moz-box-shadow: 5px 7px 15px 2px rgba(82, 90, 101, 0.12);
+      box-shadow: 5px 7px 15px 2px rgb(82 90 101 / 12%);
+      -webkit-transition: all 500ms ease-out;
+      transition: all 500ms ease-out;
+      will-change: transform;
+      .services-icon-2 {
+        display: block;
+        color: $primary-color-red;
+        margin-bottom: 20px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        svg {
+          font-family: "icomoon";
+          font-style: normal;
+          font-weight: normal;
+          font-variant: normal;
+          text-transform: none;
+          -webkit-font-smoothing: antialiased;
+          font-size: 55px;
+        }
+      }
+      h3 {
+        font-size: 18px;
+        margin-bottom: 0;
+      }
+      .service-desc {
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 0;
+      }
+      .services-btn {
+        margin-top: 16px;
+        text-align: right;
+        .services-btn-one {
+          display: inline-block;
+          font-size: 15px;
+          color: $primary-color-red;
+          font-weight: 700;
+          -webkit-transition: all 400ms ease-out;
+          transition: all 400ms ease-out;
+          will-change: transform;
+        }
+      }
+    }
+  }

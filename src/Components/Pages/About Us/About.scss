@@ -1,0 +1,21 @@
+@import '../../../App.scss';
+
+.about-us-page {
+    .title {
+        display: flex;
+        height: 280px;
+        align-items: center;
+        justify-content: center;
+        h2 {
+            font-size: 60px;
+            font-weight: 700;
+        }
+    }
+}
+
+.description {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+}
