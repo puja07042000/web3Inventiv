@@ -432,7 +432,7 @@ export default function Home() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore veniam dolore.</p>
                   </div>
                   <div className='read-more-btn mt-2'>
-                    <a href='#'>+ Read More</a>
+                    <a href='#'>Read More</a>
                   </div>
                 </div>
               </div>

@@ -1,4 +1,4 @@
-@import '../../../App.scss';
+@import "../../../App.scss";
 
 .about-us-page {
     .title {
@@ -18,4 +18,36 @@
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.6px;
+}
+
+.best {
+    margin-top: 100px;
+}
+.row {
+    margin-top: 40px;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    .key-feature {
+        background-color: #fff;
+        border-radius: 30px;
+        box-shadow: 0 4px 50px 0 rgb(0 0 0 / 10%);
+        min-height: 150px;
+        padding: 0px 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        .title {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .content {
+            font-size: 12px;
+            font-weight: 400;
+            color: gray;
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
 }
