@@ -32,7 +32,7 @@ function Defi() {
           <div className='d-flex justify-content-between row m-5'>
             <div className='services col-md-6'>
               <h4>Lending & Borrowing Platforms</h4>
-              <div className='content'>DeFi lending & Borrowing platform that allows users to supply and lock their funds in smart contracts that can be borrowed by paying corresponding interest..</div>
+              <div className='content'>DeFi lending & Borrowing platform that allows users to supply and lock their funds in smart contracts that can be borrowed by paying corresponding interest. <Link to="/lending-and-borrowing"><span>Read More...</span></Link></div>
             </div>
             <div className='col-md-4 image-parent'>
               <img src={lending} className="lending" />
@@ -44,7 +44,7 @@ function Defi() {
             </div>
             <div className='services col-md-6'>
               <h4>Staking & Yield Farming Platforms</h4>
-              <div className='content'>Maximizes users crypto returns by availing yield farming app development services to build robust and futuristic DeFi solutions with augmented yield. <Link to="/staking"><span>Read More</span></Link></div>
+              <div className='content'>Maximizes users crypto returns by availing yield farming app development services to build robust and futuristic DeFi solutions with augmented yield. <Link to="/staking"><span>Read More...</span></Link></div>
             </div>
           </div>
           <div className='d-flex justify-content-between row m-5'>

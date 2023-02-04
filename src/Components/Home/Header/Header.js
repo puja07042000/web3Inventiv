@@ -39,11 +39,11 @@ function Header() {
                                   <Link to="/defi-blockchain">DeFi</Link>
                                 </li>
                                 <li>PancakeSwap</li>
-                                <li>DAO</li>
+                                <li><Link to="/dao">DAO</Link></li>
                                 <li>
                                   <Link to="/staking">Staking and Yield Farming</Link>
                                 </li>
-                                <li>Initial Dex Offering(IDO)</li>
+                                <li><Link to="/ido">Initial Dex Offering(IDO)</Link></li>
                                 <li>Goose DeFi</li>
                                 <li>Decentralized Crypto Exchange</li>
                                 <li>Smart Contract</li>

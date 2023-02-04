@@ -14,7 +14,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className='container'>
+      <div className='container about-desc'>
         <div className='py-5'>
           <h3>About Web3Inventive</h3>
           <div className='mt-4 description'>Web3inventiv is not the earliest to arrive in the market for blockchain and cryptocurrency development but the most advanced and latest. Why is that? - we are a group of experts with over 5 years of blockchain industry experience. We are leading, Full-Service Software Development Company for Blockchain, Metaverse, IoT, Artificial Intelligence, Mobile, and Web Development with a special focus on Timeliness, Security, Scale, and Performance.</div>

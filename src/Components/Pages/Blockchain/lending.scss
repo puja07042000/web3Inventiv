@@ -1,0 +1,47 @@
+.lending {
+    .banner {
+        width: 100%;
+        height: 300px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    h2 {
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 50px;
+        font-weight: 800;
+    }
+    .description {
+        color: gray;
+        font-size: 14px;
+        text-align: justify;
+        margin-bottom: 80px;
+    }
+    h4 {
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .bg-gray {
+        background: #f2f2f2;
+        padding: 30px 30px;
+        
+        .technical-box {
+            background: #fff;
+            border-radius: 3px;
+            box-shadow: 0 5px 50px 0 rgb(0 0 0 / 4%);
+            margin-bottom: 30px;
+            padding: 60px 30px;
+            position: relative;
+            min-height: 503px;
+        }
+    }
+    .choose-us {
+        margin-top: 100px;
+        
+    }
+}
