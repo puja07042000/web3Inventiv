@@ -8,6 +8,7 @@ import Staking from './Components/Pages/Blockchain/Staking';
 import LendingandBorrowing from './Components/Pages/Blockchain/LendingandBorrowing';
 import DAO from './Components/Pages/Blockchain/DAO';
 import IDO from './Components/Pages/Blockchain/IDO';
+import DecentralizedCrypto from './Components/Pages/Blockchain/DecentralizedCrypto';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/lending-and-borrowing' element={<LendingandBorrowing />} />
         <Route path='/dao' element={<DAO />} />
         <Route path='/ido' element={<IDO/>} />
+        <Route path='/decentralized-crypto-exchange' element={<DecentralizedCrypto />}/>
       </Routes>
     </BrowserRouter>
   );

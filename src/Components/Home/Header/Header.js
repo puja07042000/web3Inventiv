@@ -45,7 +45,7 @@ function Header() {
                                 </li>
                                 <li><Link to="/ido">Initial Dex Offering(IDO)</Link></li>
                                 <li>Goose DeFi</li>
-                                <li>Decentralized Crypto Exchange</li>
+                                <li><Link to="/decentralized-crypto-exchange">Decentralized Crypto Exchange</Link></li>
                                 <li>Smart Contract</li>
                                 <li>Defi Borrowing and Lending</li>
                                 <li>Automated Market Makers</li>
