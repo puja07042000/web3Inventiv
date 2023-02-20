@@ -54,10 +54,10 @@ function Footer() {
                 <div className='footer-contact-info'>
                   <ul className='footer-contact-list p-0'>
                     <li>
-                      <span>Address:</span> 56 C-BLOCK Noida, Uttar-Pradesh
+                      <span>Address:</span> 2306, Ground Floor, Sector 20-C, Chandigarh
                     </li>
                     <li>
-                      <span>Phone:</span> +645-877779990
+                      <span>Phone:</span> +91-8287043028
                     </li>
                     <li>
                       <span>Email:</span> info@example.com

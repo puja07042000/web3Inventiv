@@ -34,36 +34,14 @@ export default function Home() {
       <section className='mini-features-area'>
         <div className='container'>
           <div className='row justify-content-center'>
-            <div className='col-lg-4 col-md-6 col-sm-12 col-12'>
+            <div className='col-lg-6 col-md-6 col-sm-12 col-12'>
               <div className='single-mini-feature d-flex align-items-center justify-content-center'>
                 <div className='mini-feature-icon'>
                   <Icofont icon='code' />
                 </div>
                 <div className='mini-feature-text'>
-                  <h3>Consulting</h3>
-                  <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-4 col-md-6 col-sm-12 col-12'>
-              <div className='single-mini-feature d-flex align-items-center justify-content-center'>
-                <div className='mini-feature-icon'>
-                  <Icofont icon='gears' />
-                </div>
-                <div className='mini-feature-text'>
-                  <h3>IT Services</h3>
-                  <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-4 col-md-6 col-sm-12 col-12'>
-              <div className='single-mini-feature d-flex align-items-center justify-content-center'>
-                <div className='mini-feature-icon'>
-                  <Icofont icon='bulb-alt' />
-                </div>
-                <div className='mini-feature-text'>
-                  <h3>Business Solutions</h3>
-                  <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                  <h3>Blockchain Consulting</h3>
+                  <div>Blockchain is the future of Businesses, We help you grow as you go! We offer you long-term support in decision-making (We can help you which vendor to choose for development) and financial advisory. Also, we are willing to go the extra mile and can represent you while visiting your development partner face to face.</div>
                 </div>
               </div>
             </div>
@@ -71,7 +49,7 @@ export default function Home() {
         </div>
       </section>
      <Content/>
-      <section className='team-area'>
+      {/* <section className='team-area'>
         <div className='container'>
           <div className='row'>
             <div className='col-sm-12'>
@@ -128,7 +106,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className='testimonial-area p-100'>
         <div className='container'>
           <div className='row'>
@@ -351,7 +329,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='blog-area pb-100'>
+      {/* <section className='blog-area pb-100'>
         <div className='container'>
           <div className='row'>
             <div className='col-sm-12'>
@@ -443,7 +421,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer/>
     </>
 

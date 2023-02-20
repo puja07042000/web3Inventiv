@@ -6,9 +6,19 @@ import './Header.scss'
 
 function Header() {
   const [active, setActive] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
+  const [company, setCompany] = useState(false);
   const myFunction = () => {
     setActive(!active);
   }
+  const traditionaltech = () => {
+    setDropdown(!dropdown);
+  }
+  const companyDropdown = () => {
+    setCompany(!company);
+  }
+
+
   return (
     <>
       <div className='navbar-area'>
@@ -21,18 +31,40 @@ function Header() {
                 </NavLink>
                 <div className='collapse navbar-collapse mean-menu'>
                   <ul className='navbar-nav'>
-                    <li className='nav-item'>
-                      <NavLink to="/services">Services</NavLink>
+                    <li className='nav-item dropdown'>
+                    <div className='dropdown-btn' onClick={companyDropdown}>Company</div>
+                    <div className={`dropdown-content-parent ${company ? "tech-active" : ""}`} onClick={companyDropdown}></div>
+                    <div className={`dropdown-content ${company ? "tech-active" : ""}`}>
+                      <ul className='menu'>
+                        <li><Link to="/services">Services</Link></li>
+                        <li><Link to="/about-us">About Us</Link></li>
+                        <li><Link to="/contact-us">Contact Us</Link></li>
+                      </ul>
+                    </div>
                     </li>
-                    <li className='nav-item'>
-                      <NavLink to="/about-us">About Us</NavLink>
+                    <li className='nav-item dropdown'>
+                      <div className='dropdown-btn' onClick={traditionaltech}>Traditional Technology</div>
+                      <div className={`dropdown-content-parent ${dropdown ? "tech-active" : ""}`} onClick={traditionaltech}></div>
+                      <div className={`dropdown-content ${dropdown ? "tech-active" : ""}`}>
+                      {/* <div className='row p-5'>
+                        <div className='col-md-4 mega-menu'> */}
+                          <ul className='menu'>
+                            <li>
+                            <Link to="/web-development">Web Development</Link></li>
+                            <li><Link to="/app-development">App Development</Link></li>
+                            <li><Link to="/degital-marketing">Digital Marketing</Link></li>
+                          </ul>
+                        {/* </div>
+                      </div> */}
+                      </div>
                     </li>
                     <li className='nav-item dropdown'>
                       <div className='dropdown-btn' onClick={myFunction}>Blockchain</div>
+                      <div className={`dropdown-content-parent ${active ? "active" : ""}`} onClick={myFunction}></div>
                       <div className={`dropdown-content ${active ? "active" : ""}`}>
-                        <div className='row p-5'>
-                          <div className='col-md-4 mega-menu'>
-                            <div className='header text-center'>Decentralized Platform</div>
+                        <div className='row p-5 justify-content-between'>
+                          <div className='col-md-3 mega-menu'>
+                            <div className='header'>Decentralized Platform</div>
                             <div className='content mt-2'>
                               <ul>
                                 <li>
@@ -46,16 +78,16 @@ function Header() {
                                 <li><Link to="/decentralized-crypto-exchange">Decentralized Crypto Exchange</Link></li>
                                 <li><Link to="/smart-contract">Smart Contract</Link></li>
                                 <li><Link to="/lending-and-borrowing">Defi Borrowing and Lending</Link></li>
-                                <li>DApp</li>
+                                <li><Link to="/dapp">DApp</Link></li>
                               </ul>
                             </div>
                           </div>
-                          <div className='col-md-4 mega-menu'>
-                            <div className='header text-center'>Cryptocurrency</div>
+                          <div className='col-md-3 mega-menu'>
+                            <div className='header'>Cryptocurrency</div>
                             <div className='content mt-2'>
                               <ul>
-                                <li>CryptoCurrency Token</li>
-                                <li>Initial Coin Offering</li>
+                                <li><Link to="/crypto-currency-token">CryptoCurrency Token</Link></li>
+                                <li><Link to="/initial-coin-offering">Initial Coin Offering</Link></li>
                                 <li>Stable Coin</li>
                                 <li>Token</li>
                                 <li>Tron Token</li>
@@ -64,7 +96,7 @@ function Header() {
                             </div>
                           </div>
                           <div className='col-md-4 mega-menu'>
-                            <div className='header text-center'>NFT(Non-fungible token)</div>
+                            <div className='header'>NFT(Non-fungible token)</div>
                             <div className='content mt-2'>
                               <ul>
                                 <li>NFT Minting</li>
@@ -85,9 +117,9 @@ function Header() {
                     <li className='nav-item'>
                       <NavLink to="/blog">Blog</NavLink>
                     </li>
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                       <NavLink to="contact">Contact</NavLink>
-                    </li>
+                    </li> */}
                   </ul>
                   <div className='other-option'>
                     <a className='btn theme-btn btn-primary' href="#">Get IT Support</a>

@@ -10,6 +10,9 @@ import DAO from './Components/Pages/Blockchain/DAO';
 import IDO from './Components/Pages/Blockchain/IDO';
 import DecentralizedCrypto from './Components/Pages/Blockchain/DecentralizedCrypto';
 import SmartContract from './Components/Pages/Blockchain/SmartContract';
+import DAPP from './Components/Pages/Blockchain/DAPP';
+import CryptoCurrencyToken from './Components/Pages/Blockchain/CryptoCurrencyToken';
+import InitialCoinOffering from './Components/Pages/Blockchain/InitialCoinOffering';
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
         <Route path='/ido' element={<IDO/>} />
         <Route path='/decentralized-crypto-exchange' element={<DecentralizedCrypto />}/>
         <Route path='/smart-contract' element={<SmartContract/>} />
+        <Route path='/dapp' element={<DAPP/>}/>
+        <Route path='/crypto-currency-token' element={<CryptoCurrencyToken/>}/>
+        <Route path='/initial-coin-offering' element={<InitialCoinOffering/>}/>
       </Routes>
     </BrowserRouter>
   );
