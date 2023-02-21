@@ -11,10 +11,15 @@
         }
     }
 
-    .services {
-        .content {
-            a {
-                text-decoration: unset;
+    .service-parent {
+        margin-top: 90px !important;
+        .services {
+            .content {
+                color: gray;
+                font-size: 14px;
+                a {
+                    text-decoration: unset;
+                }
             }
         }
     }

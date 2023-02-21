@@ -60,7 +60,7 @@ function Footer() {
                       <span>Phone:</span> +91-8287043028
                     </li>
                     <li>
-                      <span>Email:</span> info@example.com
+                      <span>Email:</span>  info@web3inventiv.com
                     </li>
                   </ul>
                 </div>
