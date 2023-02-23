@@ -9,6 +9,7 @@ import bank from '../../../images/bank-2.png'
 import supplyChain from '../../../images/supply-chain.png'
 import trade from '../../../images/trade.png'
 import cryptoCurrency from '../../../images/currency-exchange.png'
+import why from "../../../images/why.png"
 import './smart-contract.scss'
 
 function SmartContract() {
@@ -178,8 +179,17 @@ function SmartContract() {
             <li>Product owners of Decentralized Applications</li>
             <li>Anybody who needs trust of stakeholders and investors</li>
           </ul>
+          <div className='why-section'>
           <h3 className="why-title">Why Web3inventiv for Smart Contract Audit and Development?</h3>
-          <div className="content mt-4 mb-5">Web3inventiv’s solutions are completely scalable and customizable to support and adapt to your growing business. Our skilled and seasoned team of developers, business analysts, and marketers will ensure your DeFi Smart Contracts will give your DeFi business complete security, transparency, and immutability.</div>
+          <div className='row mt-5 justify-content-between'>
+            <div className='col-md-6'>
+              <div className="content mt-4 mb-5">Web3inventiv’s solutions are completely scalable and customizable to support and adapt to your growing business. Our skilled and seasoned team of developers, business analysts, and marketers will ensure your DeFi Smart Contracts will give your DeFi business complete security, transparency, and immutability.</div>
+            </div>
+            <div className='col-md-4 img-parent'>
+              <img src={why} />
+            </div>
+          </div>
+          </div>
         </div>
       </div>
       <Footer />

@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.scss'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faTwitter, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import logo from "../../../images/logo.png"
 
 
 function Footer() {
@@ -12,8 +13,8 @@ function Footer() {
           <div className='row'>
             <div className='col-lg-4 col-md-6 footer-box-item'>
               <div className='footer-about footer-list'>
-                <div className='footer-logo'>LOGO</div>
-                <div className='footer-about '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud consectetur</div>
+                <div className='footer-logo'><img src={logo} /></div>
+                <div className='footer-desc'>Web3inventiv is not the earliest to arrive in the market for blockchain and cryptocurrency development but the most advanced and latest. Why is that? - we are a group of experts with over 5 years of blockchain industry experience.</div>
                 <ul className='footer-social-icon mt-5 p-0'>
                   <li><a href='#'><FontAwesomeIcon icon={faFacebookF} /></a></li>
                   <li><a href='#'><FontAwesomeIcon icon={faTwitter} /></a></li>

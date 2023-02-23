@@ -321,7 +321,7 @@ export default function Home() {
               <div className='col-lg-12'>
                 <div className='hire-content position-relative text-center'>
                   <h2>Discuss An Upcoming IT Project</h2>
-                  <h5>For A Free Consultation Call Today +707 555-321</h5>
+                  <h5>For A Free Consultation Call Today +91-8287043028</h5>
                   <button className='btn btn-primary theme-btn mt-5'>Contact Us Now</button>
                 </div>
               </div>

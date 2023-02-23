@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../../Home/Footer/Footer'
 import Header from '../../Home/Header/Header'
-import lendingBanner from '../../../images/bitcoin-g802f4850f_1920.jpg'
+import DaoBanner from '../../../images/DAO banner.png'
 import './dao.scss'
 
 
@@ -9,9 +9,9 @@ function DAO() {
     return (
         <>
             <Header />
-            <div className='section-dao mb-5'>
+            <div className='section-dao'>
                 <div className='banner'>
-                    <img src={lendingBanner} />
+                    <img src={DaoBanner} />
                 </div>
                 <div className='container'>
                     <h2>DAO(Decentralized Autonomous Organization)</h2>
