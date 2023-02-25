@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../Home/Header/Header'
 import Footer from '../../Home/Footer/Footer'
-import shaking from '../../../images/shaking.jpg'
+import ido from '../../../images/IDO banner.png'
 import './crypto-currency.scss'
 import whitepaper from '../../../images/whitepaper.png'
 import tokenDevelopment from '../../../images/token-development.png'
@@ -16,7 +16,7 @@ return (
   <Header />
   <div class="initialcoin-section">
     <div className='banner'>
-      <img src={shaking} />
+      <img src={ido} />
     </div>
     <div className="container">
       <h2 className="text-center">Initial Coin Offering Development</h2>

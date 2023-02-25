@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../../Home/Footer/Footer'
 import Header from '../../Home/Header/Header'
-import lendingBanner from '../../../images/bitcoin-g802f4850f_1920.jpg'
+import idoBanner from '../../../images/IDO banner.png'
 import './ido.scss'
 import ido from '../../../images/ido.jpg'
 import why from "../../../images/why.png"
@@ -12,7 +12,7 @@ return (
   <Header />
   <div className='section-ido mb-5'>
     <div className='banner'>
-      <img src={lendingBanner} />
+      <img src={idoBanner} />
     </div>
     <div className='container'>
       <h2>INITIAL DEX OFFERING (IDO) DEVLOPMENT</h2>

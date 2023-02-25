@@ -161,13 +161,15 @@ function Staking() {
             </div>
           </div>
         </div>
-        <div className='row justify-content-between choose-us'>
-          <div className='col-md-5'>
-            <h4>Why Choose Web3inventiv for Staking and Yield Farming?</h4>
-            <div className='text-justify content mt-4'>Web3inventiv offers development services for defi staking pools to expand the reach of DeFi staking platforms. Many crypto enthusiasts consider them exciting features of the decentralised world. Furthermore, our pool of blockchain architects and DeFi developers are guaranteed to deliver quality DeFi staking development services to launch your DeFi staking platform. </div>
-          </div>
-          <div className='col-md-5 image-parent'>
-            <img src={why} alt="not found" />
+        <div className='container'>
+          <div className='row justify-content-between choose-us'>
+            <div className='col-md-5'>
+              <h4>Why Choose Web3inventiv for Staking and Yield Farming?</h4>
+              <div className='text-justify content mt-4'>Web3inventiv offers development services for defi staking pools to expand the reach of DeFi staking platforms. Many crypto enthusiasts consider them exciting features of the decentralised world. Furthermore, our pool of blockchain architects and DeFi developers are guaranteed to deliver quality DeFi staking development services to launch your DeFi staking platform. </div>
+            </div>
+            <div className='col-md-5 image-parent'>
+              <img src={why} alt="not found" />
+            </div>
           </div>
         </div>
 

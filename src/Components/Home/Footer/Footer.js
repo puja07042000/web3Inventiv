@@ -74,7 +74,7 @@ function Footer() {
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-lg-6 col-md-6'>
-              <div className='copyright-text'>© 2021 - All Rights Reserved - Designed by <span className='author'>Web3 Inventive</span></div>
+              <div className='copyright-text'>© 2021 - All Rights Reserved - Designed by <span className='author'>Web3 Inventiv</span></div>
             </div>
             <div className='col-lg-6 col-md-6 text-center'>
               <div className='terms'>Terms & Conditions | Privacy Policy</div>

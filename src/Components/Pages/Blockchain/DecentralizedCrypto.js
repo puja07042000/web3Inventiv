@@ -2,8 +2,13 @@ import React from 'react'
 import './decentralized-crypto.scss'
 import Footer from '../../Home/Footer/Footer'
 import Header from '../../Home/Header/Header'
-import lendingBanner from '../../../images/bitcoin-g802f4850f_1920.jpg'
+import DCEBanner from '../../../images/DECENTRALIZED-CRYPTO-EXCHANGE PL .png'
 import shaking from "../../../images/shaking.jpg"
+import uniSwap from "../../../images/web3swap.jpeg"
+import binance from "../../../images/web3Binance.jpg"
+import balancer from "../../../images/web3balance.png"
+import sushiSwap from "../../../images/web3sushi.png"
+import dydx from "../../../images/web3dy.png"
 import yeild from "../../../images/meet.jpg"
 import why from "../../../images/why.png"
 
@@ -13,7 +18,7 @@ function DecentralizedCrypto() {
             <Header />
             <section>
                 <div className="banner">
-                    <img src={lendingBanner} alt="" />
+                    <img src={DCEBanner} alt="" />
                 </div>
                 <div className="container">
                     <h2 className="text-center">DECENTRALIZED CRYPTO EXCHANGE PLATFORM DEVELOPMENT</h2>
@@ -65,15 +70,15 @@ function DecentralizedCrypto() {
                                     authorities do not bind you to a manual transaction.</li>
                             </ol>
                         </div>
-                        <h3 className="mt-5">Web3inventiv Develop DEX Clone Like</h3>
+                        {/* <h3 className="mt-5">Web3inventiv Develop DEX Clone Like</h3>
                         <div className="row justify-content-between mb-5">
                             <div className="col-md-3 clone-box">UniSwap Clone</div>
                             <div className="col-md-3 clone-box">PancakeSwap</div>
                             <div className="col-md-3 clone-box">BakerySwap</div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
-                <div className="bg-gray">
+                <div className="bg-gray mt-5">
                     <div className="container">
                         <h5 className="text-center">Mainstream DeFi Exchange Platforms</h5>
                         <div className="description mt-5 mb-5">Have a look at the popular DEXs that are currently functioning in the
@@ -81,29 +86,44 @@ function DecentralizedCrypto() {
                             features and technical advancements, you can compete with the top DEXs in the market.</div>
                         <div className="row justify-content-between mt-4">
                             <div className="col-md-3 mainstream-box">
+                                <div className='uniswap-img-parent'>
+                                    <img src={uniSwap} className="uniswap" />
+                                </div>
                                 <h6 className="text-center">Uniswap</h6>
                                 <div className="content">Uniswap is an open-source automated liquidity protocol built on Ethereum
                                     that allows trading and listing of ERC20 tokens. Uniswap has become Ethereum’s most popular
                                     automated market maker (AMM).</div>
                             </div>
                             <div className="col-md-3 mainstream-box">
+                                <div className='img-parent'>
+                                    <img src={binance} />
+                                </div>
                                 <h6>Binance DEX</h6>
                                 <div className="content">Binance DEX solves the issues encountered by its centralized exchange. It
                                     supports decentralized hardware and secure wallets.</div>
                             </div>
                             <div className="col-md-3 mainstream-box">
+                                <div className='img-parent'>
+                                    <img src={balancer} />
+                                </div>
                                 <h6>Balancer</h6>
                                 <div className="content">Balancer Exchange allows users to swap ERC20 tokens across all the
                                     liquidity pools of Balancer. Tokens are exchanged without deposits, bids, or asks.</div>
                             </div>
                         </div>
-                        <div className="row justify-content-between mt-3">
+                        <div className="row justify-content-between mt-4">
                             <div className="col-md-3 mainstream-box">
+                                <div className='img-parent'>
+                                    <img src={sushiSwap} />
+                                </div>
                                 <h6>Sushi Swap</h6>
                                 <div className="content">The SushiSwap exchange allows traders to swap any ERC20 token into any
                                     other ERC20 token through automated liquidity pools.</div>
                             </div>
                             <div className="col-md-3 mainstream-box">
+                                <div className='img-parent'>
+                                    <img src={dydx} />
+                                </div>
                                 <h6>dYdX</h6>
                                 <div className="content">dYdX is a crypto-trading platform for digital assets, built with
                                     open-source protocols, enabling decentralized margin trading.</div>
@@ -125,7 +145,7 @@ function DecentralizedCrypto() {
                             <div className='col-md-6'>
                                 <div className="answer mt-5">Having developed and launched several DeFi protocols to clientele all over the world, we consider ourselves the expert in the field. We possess a stark understanding of all things crypto, and with our team of tech-savvy developers and blockchain experts, your DEX platform stands no chance of loss.</div>
                             </div>
-                            <div className='col-md-4 img-parent'><img src={why}/></div>
+                            <div className='col-md-4 img-parent'><img src={why} /></div>
                         </div>
                     </div>
                 </div>
