@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../../Home/Footer/Footer'
 import Header from '../../Home/Header/Header'
-import DaoBanner from '../../../images/DAO banner.png'
+import DaoBanner from '../../../images/DAO.jpg'
 import './dao.scss'
 
 
@@ -24,7 +24,7 @@ function DAO() {
                 <div className='bg-gray'>
                     <div className="container">
                         <h4>Features of Decentralized Autonomous Organization</h4>
-                        <div className="row justify-content-between">
+                        <div className="row justify-content-between mt-5">
                             <div className="col-lg-3 col-md-2 col-12 feature-box">
                                 <h6 className="text-center">Decentralized</h6>
                                 <div className="content">Anybody can be part of the DAO, as long as it consents to the setup standards to take an interest, in which every part partakes in similar freedoms.</div>
@@ -50,7 +50,7 @@ function DAO() {
                             </div>
                         </div>
                         <div className="services">
-                            <h4 className="text-center mt-5">Services by web3inventiv</h4>
+                            <h4 className="mt-5">Services by web3inventiv</h4>
                             <ul>
                                 <li><span>Integration of DAO –</span> Our experts can assist you with integrating a DAO protocol into your business platform.</li>
                                 <li><span>DAO platform development –</span> We can develop excellent business platforms with built-in DAO protocols. Will fulfill all the needs of a DAO by adapting according to the primary application of the business platform.</li>

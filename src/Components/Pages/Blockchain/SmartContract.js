@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../Home/Header/Header'
 import Footer from '../../Home/Footer/Footer'
-import smartContract from "../../../images/Smartcontract-jpg.jpg"
+import smartContract from "../../../images/smart-contractb.jpg"
 import shaking from '../../../images/shaking.jpg'
 import balance from '../../../images/balance.png'
 import fintech from '../../../images/fintech.png'
@@ -25,7 +25,7 @@ function SmartContract() {
           <h2 className='text-center'>SMART CONTRACT AUDIT AND DEVELOPMENT</h2>
           <div className='description'>Smart contracts are the backbone of business automation. Being the best blockchain development company, we specialize to offer custom smart contract development services, irrespective of your industry. Smart contracts facilitate complete automation, decentralization and enhance transparency by removing the need for a middleman. Similar to traditional contracts, digital smart contracts also include a set of rules on the parties involved.</div>
           <div className="benifits-box">
-            <h4 className="text-center">Benefits of Smart Contracts that Contribute to DeFi Protocols</h4>
+            <h4>Benefits of Smart Contracts that Contribute to DeFi Protocols</h4>
             <div className="row justify-content-between mt-5">
               <div className="col-md-2 benifits">
                 <h6>High end security</h6>
@@ -110,7 +110,7 @@ function SmartContract() {
           </div>
         </div>
         <div className="container mt-5">
-          <h3>Industries for Smart Contract Development Services</h3>
+          <h4>Industries for Smart Contract Development Services</h4>
           <div className="row industry-box">
             <ul className="col-md-6">
               <li className="d-flex align-items-center mt-4">
@@ -174,7 +174,7 @@ function SmartContract() {
             </ul>
           </div>
           <div className='need-box'>
-            <h3 className="need-title">Who Needs The Smart Contracts Audit ?</h3>
+            <h4 className="need-title">Who Needs The Smart Contracts Audit ?</h4>
             <ul className="mt-4">
               <li>Industries with Smart Contract</li>
               <li>Owners and managers of ICO startups</li>
@@ -183,7 +183,7 @@ function SmartContract() {
             </ul>
           </div>
           <div className='why-section mb-5'>
-            <h3 className="why-title">Why Web3inventiv for Smart Contract Audit and Development?</h3>
+            <h4 className="why-title">Why Web3inventiv for Smart Contract Audit and Development?</h4>
             <div className='row mt-5 justify-content-between'>
               <div className='col-md-6'>
                 <div className="content mt-4 mb-5">Web3inventiv’s solutions are completely scalable and customizable to support and adapt to your growing business. Our skilled and seasoned team of developers, business analysts, and marketers will ensure your DeFi Smart Contracts will give your DeFi business complete security, transparency, and immutability.</div>

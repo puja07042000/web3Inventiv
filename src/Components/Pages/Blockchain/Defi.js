@@ -20,8 +20,8 @@ function Defi() {
         <img src={defi} className='banner' />
         <div className='container mt-5'>
           <h2 className='text-center'>DEFI (Decentralized Finance)</h2>
-          <div className='text-justify mt-5 description'>The traditional finance systems are increasingly replaced by the emerging decentralized finance applications as they provide users with more authority over their funds. It improves access for everyone to major functions such as borrowing, investment, lending, trading, and risk management. The entire platform is run on smart contracts, no intermediary, and hence makes it more transparent and highly secure. We are backed by 30+ blockchain experts and delivered 20+ blockchain projects across the globe.</div>
-          <h5 className='mt-5'>Benefits of Decentralized Finance (DeFi) Development</h5>
+          <div className='text-justify description'>The traditional finance systems are increasingly replaced by the emerging decentralized finance applications as they provide users with more authority over their funds. It improves access for everyone to major functions such as borrowing, investment, lending, trading, and risk management. The entire platform is run on smart contracts, no intermediary, and hence makes it more transparent and highly secure. We are backed by 30+ blockchain experts and delivered 20+ blockchain projects across the globe.</div>
+          <h5>Benefits of Decentralized Finance (DeFi) Development</h5>
           <ol className='mt-3 mb-5'>
             <li>Smart Contracts - Non-editable smart contracts that specializes in the prompt implementation of functions based on conditions. It enables rapid transactions and zero mistakes</li>
             <li>Pseudonymous Transactions - Decentralized finance applications offer the highest level of privacy. However, personal identity linked to transactions is not displayed.</li>
@@ -53,7 +53,7 @@ function Defi() {
           <div className='d-flex justify-content-between align-items-center row m-5 service-parent'>
             <div className='services col-md-6'>
               <h4>DAO</h4>
-              <div className='content'>Set up a decentralized organizational structure, eliminating the role of a third-party regulatory operation and engaging in a community-oriented administration with our DAO solutions.</div>
+              <div className='content'>Set up a decentralized organizational structure, eliminating the role of a third-party regulatory operation and engaging in a community-oriented administration with our DAO solutions. <Link to="/dao"><span>Read More...</span></Link></div>
             </div>
             <div className='col-md-4 image-parent'>
               <img src={dao} className="lending" />
@@ -65,7 +65,7 @@ function Defi() {
             </div>
             <div className='services col-md-6'>
               <h4>DECENTRALIZED CRYPTO EXCHANGE PLATFORM DEVELOPMENT</h4>
-              <div className='content'>Blockchain-based apps that coordinate large-scale trading of crypto assets between many users. They do that entirely through automated algorithms, instead of the conventional approach of acting as financial intermediary between buyers and sellers.</div>
+              <div className='content'>Blockchain-based apps that coordinate large-scale trading of crypto assets between many users. They do that entirely through automated algorithms, instead of the conventional approach of acting as financial intermediary between buyers and sellers.<Link to="/decentralized-crypto-exchange"><span>Read More...</span></Link></div>
             </div>
           </div>
         </div>

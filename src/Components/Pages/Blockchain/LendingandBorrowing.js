@@ -1,7 +1,8 @@
 import React from 'react'
 import Footer from '../../Home/Footer/Footer'
 import Header from '../../Home/Header/Header'
-import lendingBanner from '../../../images/Lending & Borrowing-jpg.jpg'
+import lendingBanner from '../../../images/lending and borrowing.png'
+import benifits from "../../../images/shaking.jpg"
 import why from "../../../images/why.png"
 import './lending.scss'
 
@@ -50,8 +51,8 @@ function LendingandBorrowing() {
         </div>
         <div className='container mt-5'>
           <h4>Benefits of DeFi Lending / Borrowing Platform</h4>
-          <div className='description'>DeFi lending platforms provide a host of benefits to their users. Here are a few of the highlights of Blockchain App Factory’s DeFi Lending and Borrowing Platform.</div>
-          <div className='row'>
+          <div className='description mb-3'>DeFi lending platforms provide a host of benefits to their users. Here are a few of the highlights of Blockchain App Factory’s DeFi Lending and Borrowing Platform.</div>
+          <div className='row justify-content-between'>
             <div className='col-md-5'>
               <ul>
                 <li>Highly decentralized in nature.</li>
@@ -68,7 +69,9 @@ function LendingandBorrowing() {
                 <li>Compatible with an extensive list of fiat and digital currencies.</li>
               </ul>
             </div>
-            <div className='col-md-5'></div>
+            <div className='col-md-5 img-parent'>
+              <img src={benifits} />
+            </div>
           </div>
           {/* </div> */}
         </div>

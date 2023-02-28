@@ -2,7 +2,7 @@ import React from 'react'
 import './decentralized-crypto.scss'
 import Footer from '../../Home/Footer/Footer'
 import Header from '../../Home/Header/Header'
-import DCEBanner from '../../../images/DECENTRALIZED-CRYPTO-EXCHANGE PL .png'
+import DCEBanner from '../../../images/DEX.jpg'
 import shaking from "../../../images/shaking.jpg"
 import uniSwap from "../../../images/web3swap.jpeg"
 import binance from "../../../images/web3Binance.jpg"
