@@ -4,22 +4,37 @@
         height: 400px;
     }
     h2 {
-        color: #0D4663;
+        color: #0d4663;
         font-size: 40px;
         margin-top: 60px;
         margin-bottom: 27px;
         letter-spacing: 6px;
     }
     h5 {
-        color: #0D4663;
+        color: #0d4663;
         font-size: 22px;
         letter-spacing: 1px;
+    }
+    ol {
+        padding-left: 17px;
+        li {
+            color: #544f4f;
+            font-size: 16px;
+            text-align: justify;
+            margin-bottom: 10px;
+        }
     }
     .description {
         color: #544f4f;
         font-size: 16px;
         text-align: justify;
-        margin-bottom: 80px;
+        margin-bottom: 60px;
+    }
+    h3 {
+        color: #0d4663;
+        font-size: 22px;
+        letter-spacing: 1px;
+        margin-top: 90px;
     }
     .image-parent {
         .lending {
@@ -30,11 +45,20 @@
     }
 
     .service-parent {
-        margin-top: 90px !important;
+        margin-bottom: 60px;
+        .right {
+            text-align: end;
+        }
         .services {
+            h4 {
+                font-size: 20px;
+                color: #0d4663;
+                letter-spacing: 1px;
+            }
             .content {
-                color: gray;
-                font-size: 14px;
+                color: #544f4f;
+                font-size: 16px;
+                text-align: justify;
                 a {
                     text-decoration: unset;
                 }

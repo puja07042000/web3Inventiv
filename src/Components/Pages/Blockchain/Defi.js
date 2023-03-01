@@ -32,40 +32,40 @@ function Defi() {
           </ol>
           <h3>Decentralized Finance (DeFi) Development Services</h3>
 
-          <div className='d-flex justify-content-between align-items-center row m-5 service-parent'>
+          <div className='d-flex justify-content-between row mt-5 service-parent'>
             <div className='services col-md-6'>
               <h4>Lending & Borrowing Platforms</h4>
-              <div className='content mt-4'>DeFi lending & Borrowing platform that allows users to supply and lock their funds in smart contracts that can be borrowed by paying corresponding interest. <Link to="/lending-and-borrowing"><span>Read More...</span></Link></div>
+              <div className='content mt-3'>DeFi lending and borrowing takes place with the use of a smart contract that eliminates the need for a middleman, making it a seamless process. This peer-to-peer platform provides users with the ability to borrow and lend money directly to each other. The decentralized nature of DeFi protocols offers transparency in every process involved and helps us gain ownership over our funds. In simple words, unlike the banking sector, there's no third-party involved. <Link to="/lending-and-borrowing"><span>Read More...</span></Link></div>
             </div>
             <div className='col-md-4 image-parent'>
               <img src={lending} className="lending" />
             </div>
           </div>
-          <div className='d-flex justify-content-between align-items-center row m-5 service-parent'>
+          <div className='d-flex justify-content-between row mt-5 service-parent'>
             <div className='col-md-4 image-parent'>
               <img src={staking} className="lending" />
             </div>
-            <div className='services col-md-6'>
+            <div className='services right col-md-6'>
               <h4>Staking & Yield Farming Platforms</h4>
-              <div className='content mt-4'>Maximizes users crypto returns by availing yield farming app development services to build robust and futuristic DeFi solutions with augmented yield. <Link to="/staking"><span>Read More...</span></Link></div>
+              <div className='content mt-4'>Maximizes users crypto returns by availing yield farming app development services to build robust and futuristic DeFi solutions with augmented yield. Users can earn a passive income by storing their crypto in a liquidity pool, which are like centralized finance or the CeFi counterpart of your bank account. Staking is the act of putting up collateral as proof of a party’s stake in the game in the crypto world.  <Link to="/staking"><span>Read More...</span></Link></div>
             </div>
           </div>
-          <div className='d-flex justify-content-between align-items-center row m-5 service-parent'>
+          <div className='d-flex justify-content-between row mt-5 service-parent'>
             <div className='services col-md-6'>
               <h4>DAO</h4>
-              <div className='content'>Set up a decentralized organizational structure, eliminating the role of a third-party regulatory operation and engaging in a community-oriented administration with our DAO solutions. <Link to="/dao"><span>Read More...</span></Link></div>
+              <div className='content'>Set up a decentralized organizational structure, eliminating the role of a third-party regulatory operation and engaging in a community-oriented administration with our DAO solutions. It is a community-led, transparent, and autonomous entity that operates independently of any central authority. The rules of a DAO are encoded in its smart contracts. These rules determine how the DAO interacts with the outside world and how its internal affairs are managed. <Link to="/dao"><span>Read More...</span></Link></div>
             </div>
             <div className='col-md-4 image-parent'>
               <img src={dao} className="lending" />
             </div>
           </div>
-          <div className='d-flex justify-content-between align-items-center row m-5 service-parent'>
+          <div className='d-flex justify-content-between row mt-5 service-parent'>
             <div className='col-md-4 image-parent'>
               <img src={crypto} className="lending" />
             </div>
-            <div className='services col-md-6'>
+            <div className='services right col-md-6'>
               <h4>DECENTRALIZED CRYPTO EXCHANGE PLATFORM DEVELOPMENT</h4>
-              <div className='content'>Blockchain-based apps that coordinate large-scale trading of crypto assets between many users. They do that entirely through automated algorithms, instead of the conventional approach of acting as financial intermediary between buyers and sellers.<Link to="/decentralized-crypto-exchange"><span>Read More...</span></Link></div>
+              <div className='content'>Blockchain-based apps that coordinate large-scale trading of crypto assets between many users. They do that entirely through automated algorithms, instead of the conventional approach of acting as financial intermediary between buyers and sellers. DeFi DEXs automatically match buyers and sellers and provide fast and safe transactions for the users. <Link to="/decentralized-crypto-exchange"><span>Read More...</span></Link></div>
             </div>
           </div>
         </div>
