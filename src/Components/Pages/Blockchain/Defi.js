@@ -72,7 +72,7 @@ function Defi() {
 
         <div className='bg-gray'>
           <div className='container'>
-            <div className="major-services m-5">
+            <div className="major-services">
               <h3>DeFi Development Services For Major Industries</h3>
               <div className='description'>
                 As a leading DeFi development company, we have the technology and the resources to provide DeFi platform development services to a wide range of industries.
