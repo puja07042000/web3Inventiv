@@ -15,7 +15,7 @@ return (
       <img src={idoBanner} />
     </div>
     <div className='container'>
-      <h2>INITIAL DEX OFFERING (IDO) DEVLOPMENT</h2>
+      <h2>INITIAL DEX OFFERING (IDO) DEVELOPMENT</h2>
       <div className='description'>IDO development is creating tokens for crowdfunding that allow startups to raise
         funds in the most credible way. It gains the attention of promising investors in the space as the method has
         become reliable due to its usage of decentralized crypto exchanges. IDOs can be created for anything from

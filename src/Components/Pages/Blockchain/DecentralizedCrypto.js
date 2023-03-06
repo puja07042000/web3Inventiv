@@ -140,10 +140,10 @@ function DecentralizedCrypto() {
                             recording.</div>
                     </div>
                     <div className="why-us mb-5">
-                        <h4 className="text-center">Why choose web3inventiv for Decentralized Exchange Development?</h4>
-                        <div className='row justify-content-between mt-5'>
+                        <div className='row justify-content-between'>
                             <div className='col-md-6'>
-                                <div className="answer mt-5">Having developed and launched several DeFi protocols to clientele all over the world, we consider ourselves the expert in the field. We possess a stark understanding of all things crypto, and with our team of tech-savvy developers and blockchain experts, your DEX platform stands no chance of loss.</div>
+                        <h4 className="text-start">Why choose web3inventiv for Decentralized Exchange Development?</h4>
+                                <div className="answer mt-3">Having developed and launched several DeFi protocols to clientele all over the world, we consider ourselves the expert in the field. We possess a stark understanding of all things crypto, and with our team of tech-savvy developers and blockchain experts, your DEX platform stands no chance of loss.</div>
                             </div>
                             <div className='col-md-4 img-parent'><img src={why} /></div>
                         </div>

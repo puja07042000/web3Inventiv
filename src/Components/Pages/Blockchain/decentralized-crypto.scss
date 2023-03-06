@@ -9,25 +9,36 @@ section {
         }
     }
     h2 {
-        margin-top: 100px;
+        color: #1f30b4;
+        font-size: 38px;
+        letter-spacing: 2px;
+        margin-top: 80px;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
         font-weight: 800;
     }
+   
+    h4, h5 {
+        color: #1f30b4;
+        font-size: 25px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
     .description {
-        color: gray;
-        font-size: 14px;
+        color: #544f4f;
+        font-size: 18px;
         text-align: justify;
         margin-bottom: 80px;
     }
     .work-box,
     .benifits-box {
+        margin-bottom: 100px;
         ol {
             padding: 14px;
             margin-top: 30px;
             li {
-                color: gray;
-                font-size: 14px;
+                color: #544f4f;
+                font-size: 16px;
                 font-weight: 400;
                 margin-bottom: 10px;
             }
@@ -35,7 +46,7 @@ section {
         img {
             width: 100%;
             height: 100%;
-            object-fit: contain;
+            object-fit: cover;
         }
     }
     .clone-box {
@@ -66,11 +77,14 @@ section {
             justify-content: space-around;
             text-align: center;
             flex-direction: column;
+            h6 {
+                font-size: 22px;
+            }
             .content {
-                font-size: 12px;
+                font-size: 14px;
                 font-weight: 400;
-                color: gray;
-                text-align: center;
+                color: #544f4f;
+                text-align: justify;
                 margin-top: 10px;
                 margin-bottom: 15px;
             }
@@ -102,9 +116,12 @@ section {
     }
     .open-dex-desc,
     .answer {
-        color: gray;
-        font-size: 14px;
+        color: #544f4f;
+        font-size: 18px;
         font-weight: 400;
+    }
+    .why-us {
+        margin-top: 100px;
     }
     .img-parent {
         img {

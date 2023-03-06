@@ -47,6 +47,7 @@
                 height: 100px;
             }
             h6 {
+                color: #0c6ee6;
                 margin-top: 15px;
                 font-size: 18px;
                 font-weight: 700;
@@ -61,17 +62,20 @@
         }
         .services {
             margin-top: 50px;
+            h4 {
+                margin-top: 80px;
+            }
             ul {
                 padding-left: 12px;
                 li {
                     span {
-                        color: #000;
-                        font-size: 16px;
+                        color: black;
+                        font-size: 18px;
                         font-weight: 800;
                     }
                     margin-top: 20px;
-                    color: gray;
-                    font-size: 14px;
+                    color: #544f4f;
+                    font-size: 16px;
                     font-weight: 400;
                 }
             }

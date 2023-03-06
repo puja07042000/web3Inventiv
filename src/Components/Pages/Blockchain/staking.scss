@@ -10,16 +10,25 @@
             height: 100%;
             object-fit: cover;
         }
-        h2 {
-            color: black;
-            font-size: 38px;
-            font-weight: 800;
-        }
+    }
+    h2 {
+        color: #04376E;
+        font-size: 38px;
+        letter-spacing: 2px;
+        font-weight: 800;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    h4 {
+        color: #04376E;
+        font-size: 25px;
+        letter-spacing: 1px;
+        font-weight: 800;
     }
     .question {
+        color: #04376E;
         font-size: 25px;
         font-weight: 600;
-        margin-bottom: 50px;
     }
     .image-parent {
         img {
@@ -30,11 +39,12 @@
         }
     }
     .content {
-        width: 465px;
+        width: 100%;
         height: auto;
-        font-size: 14px;
         font-weight: 400;
-        color: gray;
+        color: #544f4f;
+        font-size: 18px;
+        text-align: justify;
     }
     .benifits-box,
     .platforms {

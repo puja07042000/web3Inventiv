@@ -28,9 +28,9 @@ function Staking() {
           <img src={staking} alt="not found" />
         </div>
         <h2 className='text-center'>STAKING & YIELD FARMING PLATFORM DEVELOPMENT</h2>
-        <div className='container mt-5'>
-          <div className='row justify-content-between align-items-center section-margin'>
-            <div className='col-md-5'>
+        <div className='container'>
+          <div className='row justify-content-between'>
+            <div className='col-md-6'>
               <div className='question'>What is Staking?</div>
               <div className='mt-3 content'>Staking is the act of putting up collateral as proof of a party’s stake in the game in the crypto world. The staker’s actions are in good faith if they have exhibited a financial interest in the protocol’s future success. It is a mechanism derived from the Proof of Stake (PoS) consensus model —an alternative to Proof of Work (PoW).</div>
             </div>
@@ -38,12 +38,12 @@ function Staking() {
               <img src={shaking} alt="not found" />
             </div>
           </div>
-          <div className='row justify-content-between align-items-center mt-5 mb-5'>
+          <div className='row justify-content-between mt-5 mb-5'>
             <div class="col-md-5 image-parent">
               <img src={yeild} alt="not found" />
             </div>
-            <div className='col-md-5'>
-              <h6 className='mt-5'>What is Yield Farming?</h6>
+            <div className='col-md-6'>
+              <h6 className='question'>What is Yield Farming?</h6>
               <div className='mt-3 content'>Users can earn a passive income by storing their crypto in a liquidity pool, which are like centralized finance or the CeFi counterpart of your bank account. You deposit your funds that the bank utilizes to credit loans to others, paying you a fixed proportion of the interest gained.</div>
             </div>
           </div>
@@ -106,7 +106,7 @@ function Staking() {
         <div className='bg-gray mt-5'>
           <div className='container'>
             <div className="platforms mt-5">
-              <h2 className="text-center">Crypto Exchange Platforms that Support DeFi Staking</h2>
+              <h2 className="text-center mt-2">Crypto Exchange Platforms that Support DeFi Staking</h2>
               <div className="row mt-5">
                 <div className="col-md-3">
                   <div className="images">

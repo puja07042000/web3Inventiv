@@ -60,7 +60,7 @@ function DAO() {
                             </div>
                         </div>
                         <div className="services">
-                            <h4 className="mt-5">Services by web3inventiv</h4>
+                            <h4>Services by web3inventiv</h4>
                             <ul>
                                 <li><span>Integration of DAO –</span> Our experts can assist you with integrating a DAO protocol into your business platform.</li>
                                 <li><span>DAO platform development –</span> We can develop excellent business platforms with built-in DAO protocols. Will fulfill all the needs of a DAO by adapting according to the primary application of the business platform.</li>
