@@ -88,7 +88,7 @@ function Header() {
                               <ul>
                                 <li><Link to="/crypto-currency-token">CryptoCurrency Token</Link></li>
                                 <li><Link to="/initial-coin-offering">Initial Coin Offering</Link></li>
-                                <li>Stable Coin</li>
+                                <li><Link to="/stable-coin">Stable Coin</Link></li>
                                 <li>Token</li>
                                 <li>Tron Token</li>
                                 <li>BOTS</li>

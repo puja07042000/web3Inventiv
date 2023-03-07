@@ -13,6 +13,7 @@ import SmartContract from './Components/Pages/Blockchain/SmartContract';
 import DAPP from './Components/Pages/Blockchain/DAPP';
 import CryptoCurrencyToken from './Components/Pages/Blockchain/CryptoCurrencyToken';
 import InitialCoinOffering from './Components/Pages/Blockchain/InitialCoinOffering';
+import StableCoin from './Components/Pages/Blockchain/StableCoin';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path='/dapp' element={<DAPP/>}/>
         <Route path='/crypto-currency-token' element={<CryptoCurrencyToken/>}/>
         <Route path='/initial-coin-offering' element={<InitialCoinOffering/>}/>
+        <Route path='/stable-coin' element={<StableCoin/>}/>
       </Routes>
     </BrowserRouter>
   );

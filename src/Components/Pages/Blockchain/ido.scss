@@ -9,7 +9,7 @@
     }
   }
   h2 {
-    color: #004DC9;
+    color: #004dc9;
     margin-top: 80px;
     font-size: 38px;
     text-align: center;
@@ -17,7 +17,7 @@
     font-weight: 800;
   }
   h4 {
-    color: #004DC9;
+    color: #004dc9;
     font-size: 27px;
     letter-spacing: 1px;
     font-weight: 800;
@@ -61,14 +61,15 @@
       background: #fff;
       padding: 50px 10px;
       h5 {
+        font-size: 25px;
         font-weight: 700;
       }
       .launchpad-box {
         ul {
           list-style: none;
           li {
-            color: gray;
-            font-size: 14px;
+            color: #544f4f;
+            font-size: 16px;
             font-weight: 400;
           }
         }
@@ -106,13 +107,15 @@
     margin-top: 70px;
     .why-us {
       h5 {
+        color: #004dc9;
+        font-size: 27px;
         font-weight: 800;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
       }
       ul {
-        li{
-          color: gray;
-          font-size: 14px;
+        li {
+          color: #544f4f;
+          font-size: 18px;
           font-weight: 400;
           margin-top: 10px;
         }
