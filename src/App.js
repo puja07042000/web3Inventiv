@@ -14,6 +14,7 @@ import DAPP from './Components/Pages/Blockchain/DAPP';
 import CryptoCurrencyToken from './Components/Pages/Blockchain/CryptoCurrencyToken';
 import InitialCoinOffering from './Components/Pages/Blockchain/InitialCoinOffering';
 import StableCoin from './Components/Pages/Blockchain/StableCoin';
+import Token from './Components/Pages/Blockchain/Token';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path='/crypto-currency-token' element={<CryptoCurrencyToken/>}/>
         <Route path='/initial-coin-offering' element={<InitialCoinOffering/>}/>
         <Route path='/stable-coin' element={<StableCoin/>}/>
+        <Route path='/token' element={<Token/>}/>
       </Routes>
     </BrowserRouter>
   );

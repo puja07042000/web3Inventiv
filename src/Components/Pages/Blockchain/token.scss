@@ -1,0 +1,117 @@
+.token-section {
+    .banner {
+        width: 100%;
+        height: 400px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+    }
+    h2 {
+        color: #0E6998;
+        font-size: 38px;
+        letter-spacing: 2px;
+        margin-top: 80px;
+        text-align: center;
+        margin-bottom: 60px;
+        font-weight: 800;
+    }
+    h4 {
+        color: #0E6998;
+        font-size: 25px;
+        letter-spacing: 2px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .description {
+        color: #544f4f;
+        font-size: 16px;
+        text-align: justify;
+        margin-bottom: 60px;
+    }
+    .services-box {
+        background-color: #fff;
+        border-radius: 30px;
+        box-shadow: 0 4px 50px 0 rgb(0 0 0 / 10%);
+        min-height: 150px;
+        padding: 10px 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+        .img-parent {
+            width: 100px;
+            height: 100px;
+            img {
+                border-radius: 50%;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .service-name {
+            color: #544f4f;
+            font-size: 18px;
+        }
+    }
+    .types-token {
+        .images {
+            width: 100%;
+            height: 250px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+        }
+        .title {
+            min-height: 150px;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            background: rgb(67, 130, 224);
+            color: white;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            .name {
+                font-size: 20px;
+            }
+            .about {
+                font-size: 16px;
+            }
+        }
+    }
+    .features {
+        .img-parent {
+            // width: 100%;
+            height: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .features-token {
+            ol {
+                padding-left: 10px;
+                li {
+                    span {
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: black;
+                    }
+                    color: #544f4f;
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
