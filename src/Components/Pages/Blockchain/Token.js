@@ -22,6 +22,7 @@ import security from "../../../images/Security-Token-Offering.png"
 import utilityToken from "../../../images/Utility Tokens.jpg"
 import equityToken from "../../../images/99_Equity-token.png"
 import featuresToken from "../../../images/features-token.jpg"
+import why from "../../../images/why.png"
 import './token.scss'
 
 function Token() {
@@ -180,7 +181,7 @@ function Token() {
                             </div>
                         </div>
                     </div>
-                    <h4>Features of Our Token Development</h4>
+                    <h4 className='feature-heading'>Features of Our Token Development</h4>
                     <div className='description mt-3'>Our Token development services are packed with top-notch features that bring huge benefits to both users and owners of the token. Here are some of the outstanding features of our tokens that may delight you.</div>
                     <div className='row justify-content-between mt-5 mb-5 features'>
                         <div className='col-md-6 features-token'>
@@ -211,8 +212,81 @@ function Token() {
                                 </li>
                             </ol>
                         </div>
-                        <div className='col-md-4 img-parent'>
-                        <img src={featuresToken} />
+                        <div className='col-md-5 img-parent'>
+                            <img src={featuresToken} />
+                        </div>
+                    </div>
+                </div>
+                <div className='bg-gray'>
+                    <div className='container'>
+                        <h4>Tokens Development Process</h4>
+                        <div className="timeline-center mt-5">
+                            <div className="timeline-row">
+                                <div className="tm-icon">
+                                    <span>1</span>
+                                </div>
+                                <div className="tm-details">
+                                    <h4>Gathering Requirements</h4>
+                                    <p>We gather business requirements, which is the initial process where we make a proper plan and appraisal based on the requirements of the business needs to satisfy the customer query.</p>
+                                </div>
+                            </div>
+                            <div className="timeline-row">
+                                <div className="tm-icon">
+                                    <span>2</span>
+                                </div>
+                                <div className="tm-details">
+                                    <h4>Blockchain Selection</h4>
+                                    <p>Since the Tokens are Smart Contracts operated over the Blockchain, it is essential to select the framework over which the Tokens will be effectively operated upon to deliver effective Token Supply Management.</p>
+                                </div>
+                            </div>
+                            <div className="timeline-row">
+                                <div className="tm-icon">
+                                    <span>3</span>
+                                </div>
+                                <div className="tm-details">
+                                    <h4>Coding Smart Contracts</h4>
+                                    <p>Crypto tokens are mediated and made to work on the basis of Specialized Softwares called Smart Contracts. These Smart Contracts are programmed with operational specifications that promote efficient asset transfer.</p>
+                                </div>
+                            </div>
+                            <div className="timeline-row">
+                                <div className="tm-icon">
+                                    <span>4</span>
+                                </div>
+                                <div className="tm-details">
+                                    <h4>Setting Up Token Identity</h4>
+                                    <p>Setting up token identity will undergo a tertiary but significant process in the token development process (i.e) Identity selection, user-specified name, symbol, and operational functionalities are set for the token development.</p>
+                                </div>
+                            </div>
+                            <div className="timeline-row">
+                                <div className="tm-icon">
+                                    <span>5</span>
+                                </div>
+                                <div className="tm-details">
+                                    <h4>Token Out For Use</h4>
+                                    <p>After setting up Token identity, it is made available in the transfer window of the Cryptocurrencies, the Token gets listed in the transaction window and made available for use to the general Crypto participants.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='container mt-5'>
+                    <div className='row justify-content-between why-us'>
+                        <div className='col-md-6'>
+                            <h4>Why Choose web3inventiv for Token Development services?</h4>
+                            <ul>
+                                <li>State-of-the-Art Tools and Technologies</li>
+                                <li>Customized Solutions</li>
+                                <li>Respond Promptly</li>
+                                <li>Multiple Token Development</li>
+                                <li>Quality Assurance</li>
+                                <li>Experienced Token Developers</li>
+                                <li>Round Clock Availability</li>
+                                <li>Unshakeable Experience in the Field</li>
+                                <li>Transparent Development Process</li>
+                            </ul>
+                        </div>
+                        <div className='col-md-5 image-parent'>
+                        <img src={why} />
                         </div>
                     </div>
                 </div>

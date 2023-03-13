@@ -15,6 +15,7 @@ import CryptoCurrencyToken from './Components/Pages/Blockchain/CryptoCurrencyTok
 import InitialCoinOffering from './Components/Pages/Blockchain/InitialCoinOffering';
 import StableCoin from './Components/Pages/Blockchain/StableCoin';
 import Token from './Components/Pages/Blockchain/Token';
+import NftMarketplace from './Components/Pages/Blockchain/NftMarketplace';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path='/initial-coin-offering' element={<InitialCoinOffering/>}/>
         <Route path='/stable-coin' element={<StableCoin/>}/>
         <Route path='/token' element={<Token/>}/>
+        <Route path='/nft-marketplace' element={<NftMarketplace/>}/>
       </Routes>
     </BrowserRouter>
   );

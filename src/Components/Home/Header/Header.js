@@ -100,7 +100,7 @@ function Header() {
                             <div className='content mt-2'>
                               <ul>
                                 <li>NFT Minting</li>
-                                <li>NFT Marketplace</li>
+                                <li><Link to="/nft-marketplace">NFT Marketplace</Link></li>
                                 <li>NFT Launchpad</li>
                                 <li>NFT Staking Platform</li>
                                 <li>Solana NFT Marketplace</li>

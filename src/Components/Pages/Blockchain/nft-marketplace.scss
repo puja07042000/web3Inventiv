@@ -1,0 +1,98 @@
+.nft-marketplace-section {
+    .banner {
+        width: 100%;
+        height: 400px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+    }
+    h2 {
+        color: #002a95;
+        font-size: 38px;
+        letter-spacing: 2px;
+        margin-top: 80px;
+        text-align: center;
+        margin-bottom: 60px;
+        font-weight: 800;
+    }
+    h4 {
+        color: #002a95;
+        font-size: 25px;
+        letter-spacing: 2px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .description {
+        color: #544f4f;
+        font-size: 16px;
+        text-align: justify;
+        margin-bottom: 60px;
+    }
+    .nft-box {
+        h4 {
+            color: #002a95;
+            font-size: 22px;
+            letter-spacing: 2px;
+            font-weight: 800;
+        }
+        .content {
+            color: #544f4f;
+            font-size: 18px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        .child-content {
+            color: #544f4f;
+            font-size: 18px;
+        }
+    }
+    .img-parent {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .multiple-chains-sec {
+        margin-top: 100px;
+    }
+    .multiple-chains {
+        background-color: #fff;
+        border-radius: 30px;
+        box-shadow: 0 4px 50px 0 rgb(0 0 0 / 10%);
+        min-height: 150px;
+        padding: 10px 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 50px;
+        .img-parent {
+            width: 100%;
+            height: 200px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .about-chains {
+            margin-top: 20px;
+            .name {
+                font-size: 18px;
+                color: #544f4f;
+                font-weight: 700;
+            }
+            .about {
+                margin-top: 10px;
+                font-size: 16px;
+                font-weight: 400;
+                color: #544f4f;
+                text-align: start;
+            }
+        }
+    }
+}
